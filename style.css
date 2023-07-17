@@ -36,8 +36,49 @@
 
 .list-item {
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 50px;
     color: #3A3A3A;
     font-size: 16px;
     font-weight: 600;
+}
+
+/* banner section */
+
+.banner-container {
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner-content h1 {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.banner-content p {
+    color: #3A3A3A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: -30px;
+}
+
+.btn-preebook {
+    border: 0;
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.arrow{
+    margin-left: 10px;
 }
